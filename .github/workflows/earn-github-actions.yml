@@ -1,8 +1,7 @@
 name: learn-github-actions
-run-name: ${{ github.actor }} is learning GitHub Actions
 on: [push]
 jobs:
   Hello-World-Job:
-    runs-on: codebuild-GHA_TEST-${{ github.run_id }}-${{ github.run_attempt }}
+    runs-on: codebuild-GHA_TESTGAMMA-${{ github.run_id }}-${{ github.run_attempt }}
     steps:
       - run: echo "Hello World!
