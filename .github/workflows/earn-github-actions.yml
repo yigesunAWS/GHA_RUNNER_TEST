@@ -2,6 +2,6 @@ name: learn-github-actions
 on: [push]
 jobs:
   Hello-World-Job:
-    runs-on: codebuild-GHA_TESTPROD-${{ github.run_id }}-${{ github.run_attempt }}
+    runs-on: codebuild-GHA_RUNNERPROD-${{ github.run_id }}-${{ github.run_attempt }}
     steps:
       - run: echo "Hello World!
