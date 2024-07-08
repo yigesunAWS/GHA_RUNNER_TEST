@@ -20,6 +20,7 @@
             - echo Build started on `date`
             - tsc
             - npm prune --production
+            - echo Test Webhook
           post_build:
             commands:
               - echo Build completed on now
