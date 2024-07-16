@@ -23,4 +23,4 @@
             - echo Test Webhook
           post_build:
             commands:
-              - echo Build completed on now
+              - echo Build completed
