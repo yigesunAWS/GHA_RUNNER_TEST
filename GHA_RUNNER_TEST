@@ -23,4 +23,4 @@
             - echo Test Webhook
           post_build:
             commands:
-              - echo Build completed using account level credentials after fix pushed
+              - echo Build completed using account level credentials after fix pushed and creds freshed
