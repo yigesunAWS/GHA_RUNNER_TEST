@@ -23,4 +23,4 @@
             - echo Test Webhook
           post_build:
             commands:
-              - echo Build completed using project level suffix is -iad
+              - echo Build completed using account level sm creds suffix is -iad
